@@ -3,32 +3,39 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Travel Agencies Design</title>
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body>
-        <main
-            class="h-screen w-full flex items-center justify-center bg-[#eeeeee]">
-            <div
-                class="max-w-screen-xl w-fit-content shadow-xl items-center justify-center flex border-2 ">
-                <img class="object-cover h-[80vh] w-[25vw] "
+        <main class="h-screen w-full flex items-center justify-center bg-[#eeeeee]">
+            <div class="max-w-screen-xl w-fit-content shadow-xl items-center justify-center flex flex-col lg:flex-row border-2">
+                <!-- Image section -->
+                <img class="object-cover h-[60vh] w-full lg:h-[80vh] lg:w-[25vw]"
                     src="https://i.pinimg.com/564x/e8/bd/22/e8bd22d99aedcdd784a9c4e74ea1217f.jpg"
-                    alt>
-                <div class="h-[80vh] w-[35vw] bg-[#ffffff]">
-                    <nav class="flex gap-20 items-center justify-center text-lg text-yellow-500 font-semibold py-5">
-                        <a href>Home</a>
-                        <a href>Gallery</a>
-                        <a href>Shop</a>
-                        <a href>Contact</a>
+                    alt="Travel Image">
+                <!-- Text content section -->
+                <div class="h-auto lg:h-[80vh] w-full lg:w-[35vw] bg-[#ffffff] flex flex-col">
+                    <!-- Navigation bar -->
+                    <nav class="flex gap-8 lg:gap-20 items-center justify-center text-sm lg:text-lg text-yellow-500 font-semibold py-5">
+                        <a href="#">Home</a>
+                        <a href="#">Gallery</a>
+                        <a href="#">Shop</a>
+                        <a href="#">Contact</a>
                     </nav>
-                    <div class="flex flex-col items-center ">
-                        <h2 class="text-5xl mt-12 font-semibold">TIME TO</h2>
-                        <h1 class="text-8xl font-bold text-yellow-500">TRAVEL</h1>
-                        <p class="w-[90%] text-md mt-10 text-center">A travel agency poster is a visual marketing tool used to promote travel packages, destinations, and services offered by a travel agency. Where you can find peace and collect millions of memories. </p>
-                        <p class="w-[90%] text-md mt-8 text-center">Travel is only one thing which will make you feel happier and where you will find peace. We are here to complete your travel dream and will help you to select the best destinations.</p>
-                        <div class="flex gap-10 mt-8 text-white">
-                            <button class="px-5 py-2 bg-[#fab404] rounded-full font-semibold ">Learn More</button>
-                            <button class="px-5 py-2 bg-[#fab404] rounded-full font-semibold ">Book Now</button>
+                    <!-- Main content -->
+                    <div class="flex flex-col items-center px-4 lg:px-0">
+                        <h2 class="text-3xl lg:text-5xl mt-6 lg:mt-12 font-semibold">TIME TO</h2>
+                        <h1 class="text-5xl lg:text-8xl font-bold text-yellow-500">TRAVEL</h1>
+                        <p class="w-full lg:w-[90%] text-sm lg:text-md mt-6 lg:mt-10 text-center">
+                            A travel agency poster is a visual marketing tool used to promote travel packages, destinations, and services offered by a travel agency.
+                        </p>
+                        <p class="w-full lg:w-[90%] text-sm lg:text-md mt-4 lg:mt-8 text-center">
+                            Travel is one of the things that will make you feel happier and where you will find peace. We are here to complete your travel dream and help you select the best destinations.
+                        </p>
+                        <!-- Buttons -->
+                        <div class="flex gap-4 lg:gap-10 mt-6 lg:mt-8 text-white">
+                            <button class="px-4 lg:px-5 py-2 bg-[#fab404] rounded-full font-semibold">Learn More</button>
+                            <button class="px-4 lg:px-5 py-2 bg-[#fab404] rounded-full font-semibold">Book Now</button>
                         </div>
                     </div>
                 </div>
